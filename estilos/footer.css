@@ -1,0 +1,168 @@
+.footer {
+    width: 100%;
+    height: 600px;
+}
+
+:root {
+    --color-pallete5: rgba(187,193,205,255);
+    --color-pallete4: rgba(161,168,186,255);
+    --color-pallete3: rgba(92,111,126,255);
+    --color-pallete2: rgba(70,88,102,255);
+    --color-pallete1: rgba(45,57,69,255);
+}
+
+/*#region FooterUpper*/
+.footer-upper {
+    height: 75%;
+    background-color: var(--color-pallete1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+        /* border-color: red;
+        border-width: 2px;
+        border-style: solid; */
+    
+}
+
+.footer-upper > .first-content ,
+.footer-upper > .second-content,
+.footer-upper > .third-content {
+    padding: 15px;
+}
+
+.ete-logo-region {
+    height: 40px;
+        /* border-color: red;
+        border-width: 2px;
+        border-style: solid; */
+}
+
+.ete-logo-region > .ete-icon {
+    height: 100%;
+    width: auto;
+}
+
+.text-tcc {
+    max-width: 300px;
+    color: var(--color-pallete4);
+        /* border-color: red;
+        border-width: 2px;
+        border-style: solid; */
+}
+
+.author-professor > span {
+    color: var(--color-pallete3);
+}
+
+.content-contact {
+    font-weight: bold;
+    color: white;
+    font-family: Arial;
+    font-size: 2rem;
+        
+}
+
+.content-number > p {
+    color: var(--color-pallete4);
+    transition: 0.3s;
+        /* border-color: red;
+        border-width: 2px;
+        border-style: solid; */
+}
+
+.content-email > span {
+    color: var(--color-pallete3);
+    transition: 0.3s;
+        /* border-color: red;
+        border-width: 2px;
+        border-style: solid; */
+}
+
+.content-midia {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px;
+    transition: 0.3s;
+        /* border-color: red;
+        border-width: 2px;
+        border-style: solid; */
+    
+}
+
+.content-email > span:hover,
+.content-number > p:hover,
+.content-midia > img:hover {
+    filter: brightness(1.5);
+}
+
+
+.content-midia > img {
+    height: 28px;
+    width: 28px;
+}
+
+.third-content > .content-collaborator {
+    font-weight: bold;
+    color: white;
+    font-family: Arial;
+    font-size: 2rem;
+}
+
+
+.third-content > ul > p {
+    color: var(--color-pallete4);
+    margin-top: 5px;
+    transition: 0.3s;
+    word-spacing: -2px;
+        /* border-color: red;
+        border-width: 2px;
+        border-style: solid; */
+
+}
+
+.third-content > ul > p:hover{
+    cursor: pointer;
+    
+    opacity: 0.3;
+}
+
+h5 {
+    font-weight: bold;
+    color: var(--color-pallete5);
+    font-family: Arial;
+    font-size: 2rem;
+        /* border-color: red;
+        border-width: 2px;
+        border-style: solid; */
+
+}
+
+/*#endregion FooterUpper*/
+
+/*#region FooterDown*/
+
+.footer-down {
+    height: 25%;
+    background-color: var(--color-pallete2);
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-down > div > p{
+    text-align: center;
+    color: var(--color-pallete4);
+    padding: 5px;
+        /* border-color: red;
+        border-width: 2px;
+        border-style: solid; 
+} */
+}
+.footer-down:hover {
+    opacity: (0.7);
+}
+
+
+/*#endregion FooterDown*/
+
+/* rgba(230,230,230,255) */

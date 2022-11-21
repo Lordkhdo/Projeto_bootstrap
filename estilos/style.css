@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .logo {
@@ -30,6 +31,11 @@
   margin-top: 90px;
 }
 
+.centralizar:nth-child(1){
+  background-color: black;
+  padding-bottom: 500px;
+  height: 10000px;
+}
 /* circulos abaixo do carrousel*/
 .ratio {
   margin: 20px;
